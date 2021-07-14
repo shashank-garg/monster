@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  h1{
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 72px;
+    color: #0ccac4;
+  }
